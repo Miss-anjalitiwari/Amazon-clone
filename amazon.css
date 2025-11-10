@@ -1,0 +1,256 @@
+body{
+    background-color: rgba(105, 23, 23, 0.664);
+}
+*{
+    margin: 0px;
+    font-family: Arial;
+    box-sizing:border-box ;  
+}
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;  
+}
+.logo{
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    padding: 1px;  
+}
+.nav-address{
+    width: 250px;
+  font-weight: 550;
+  color: white; 
+}
+.add-address{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.border{
+    border: 2px solid transparent;
+    padding: 3px;
+    border-radius: 3px;
+   
+}
+.border:hover {
+     border: white 2px solid ;
+}
+#delhi{
+    font-weight: lighter ;
+    opacity: 0.7;
+}
+.search{
+     display: flex;
+     color: rgb(49, 44, 44);
+     width: 660px;
+     height: 45px;
+     align-content: center;
+}
+.search-icon{
+   background-color: rgb(226, 171, 99);
+   color: rgb(5, 5, 5);
+   width: 55px;
+
+   border-radius: 0px 2px 2px 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font: 1.5px;
+}
+#input{
+    width: 700px !important;
+    font-size: 1rem;
+}
+#allsearch{
+    background-color: rgb(201, 196, 196);
+ 
+    padding-left:5px ;
+    color: rgb(94, 91, 91);
+    border: none;
+    border-radius: 2px 0px 0px 2px ;
+    
+}
+#allsearch:hover{
+    color: black;
+}
+ .flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+    color: rgb(240, 174, 99);
+    padding-left: 5px;
+    padding-right: 2px;
+ 
+}
+#lang{
+     width: 100px;
+       height: 20px;
+       background-color: rgb(38, 61, 90);
+       color: rgb(255, 255, 255);
+}
+
+.signin{
+    width: 150px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: white;
+
+}
+#acc{
+  width: 130px;
+  font-weight: 550;
+}
+.return{
+   
+ padding-left: 4px;
+    padding-right: 4px;
+    color: white;
+    width: 100px;
+}
+#order{
+  font-weight: 550;
+}
+.cart{
+    width: 70px;
+    padding-left: 4px;
+    padding-right: 4px;
+     display: flex;
+    color: white;
+}  
+.second-row{
+    display: flex;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(21, 21, 36);
+    color: white;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border: 1.5px white solid;
+}
+.main-img{
+    background-image: url(diwalioffer.jpg);
+    width: 1343px;
+    height: 500px;
+    background-size: contain;
+      align-content: flex-end;
+}
+.shop-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box{
+    
+    height: 230px;
+    width: 23%;
+    border: 4px white solid;
+    padding: 1px;
+
+}
+.box1{
+    background-image: url(box5_image.jpg);
+    background-size: contain;
+}
+.box2{
+    background-image: url(box2_image.jpg);
+    background-size: contain;
+}
+.box3{
+    background-image: url(box3_image.jpg);
+    background-size: contain;
+}
+.box4{
+    background-image: url(box4_image.jpg);
+    background-size: contain;
+}
+h2{
+    background-color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.shop-section2{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.box5{
+    background-image: url(box1_image.jpg);
+    background-size: contain;
+}.box6{
+    background-image: url(box6_image.jpg);
+    background-size: contain;
+}
+.box7{
+    background-image: url(box7_image.jpg);
+    background-size: contain;
+}.box8{
+    background-image: url(box8_image.jpg);
+    background-size: contain;
+}
+.foot{
+    background-color:rgb(53, 71, 83);
+   
+    margin-top: 15px;
+    height: 40px;
+    color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.foot2{
+    background-color:#262e3d ;
+    color:white;
+    height: 250px;
+    display: flex;
+    
+    
+   
+}
+#foothead{
+     background-color:  #262e3d;
+      padding-top: 30px;
+     margin-bottom: 10px;
+      margin-left: 70px;
+     
+}
+li{
+
+    margin-bottom: 5px;
+   margin-left: 70px;
+   
+}
+.last{
+     background-color:rgb(0, 0, 0);
+   
+   
+    height: 70px;
+    color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    padding-bottom: 5px;
+
+}
+.lastimg{
+    background-image: url(logo.png);
+    background-size: contain;
+    height: 50px;
+    width: 100px;
+    padding-top:10px ;
+    
+}
